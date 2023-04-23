@@ -32,11 +32,9 @@ const AboutSection = () => {
 
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
-      console.log(data);
     });
     client.fetch(aboutsQuery).then((data) => {
       setAbouts(data[0]);
-      console.log(data);
     });
   }, []);
 
