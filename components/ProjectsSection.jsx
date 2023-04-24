@@ -63,7 +63,7 @@ const ProjectsSection = () => {
                     </div>
                     <div className="mt-4 flex justify-start">
                       {project?.tags?.map((tag,idx)=>(
-                        <span key={idx} className="px-2 mr-2 rounded-full border-teal-600 border text-neutral-600 dark:text-neutral-400 capitalize">#{tag}</span>
+                        <span key={idx} className="px-2 mr-2 rounded-full border-teal-600 border text-neutral-600 dark:text-neutral-400 capitalize cursor-default">#{tag}</span>
                       ))}
                     </div>
                   </div>

@@ -14,7 +14,6 @@ const HeroSection = () => {
     const query = '*[_type == "hero"]';
     client.fetch(query).then((data) => {
       setHero(data[0]);
-      console.log(data[0]);
     });
   }, []);
 
